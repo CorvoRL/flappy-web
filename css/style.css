@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(53, 53, 53);
+}
+
+canvas {
+    margin-top: 200px;
+    margin-left: 200px;
+    position: relative;
+    left: 300px;
+}
+
+.noot {
+    animation: noot 3s ease infinite;
+    font-size: 60px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes noot {
+    0% {
+        color: black;
+    }
+
+    50% {
+        color: white;
+    }
+}
